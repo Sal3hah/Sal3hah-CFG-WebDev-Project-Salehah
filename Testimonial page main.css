@@ -1,0 +1,165 @@
+/*Styling for navigation*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Styling for the navigation bar */
+.navbar {
+    list-style-type: none;
+    background-color: #8ec4d7;
+    overflow: hidden;
+    text-align: center; /* Align the text in the center */
+}
+
+.navbar .title {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    color: #f9f6f6;
+    padding: 14px 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar ul {
+    display: inline-block; /* Ensure the UL containing the list items is inline */
+}
+
+.navbar li {
+    display: inline; /* Display list items in line */
+    vertical-align: middle;
+    padding: 0 10px; 
+}
+
+/* Styles for the specific list items */
+
+.navbar li.BOOK-NOW a {
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+.navbar li.BOOK-NOW a:hover {
+    background-color: seagreen;
+    border-radius: 5px;
+    transform: scale(1.1); /* Increase the size on hover */
+}
+
+.navbar li a {
+    transition: all 0.3s ease;
+    display: inline-block;
+    color: #fefafa;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+
+.navbar li a:hover {
+    background-color: #19747E;
+    border-radius: 5px; 
+    transform: scale(1.1);
+}
+
+/* Shift contact-login-signup and changing styling*/
+
+.navbar .align-right {
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+    width: 500px;
+    margin-left: 20px; 
+    display: inline-block; /* Display list items in line */
+    vertical-align: middle;
+    padding: 5px; 
+    float: right; /* Float the elements to the right */
+    margin-right: 10px; /* Add some right margin for spacing */
+   
+}
+
+/* Specific hover color for elements with class align-right */
+.navbar .align-right a:hover {
+    background-color: skyblue; 
+    border-radius: 5px; 
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*Styling for testimonials*/
+
+
+h1 {
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #19747E;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 16px;
+}
+
+.interactive-button {
+    background-color: #19747E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.interactive-container {
+    display: none;
+    margin-top: 20px;
+}
+
+/*Increasing container size*/
+.carousel-inner {
+    height: 600px; 
+}
+
+.carousel-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+
+/*styling for bootstrap btn primary*/
+.btn.btn-primary {
+    display: block;
+    margin: 0 auto;
+}
+    
+.btn.btn-primary:hover {
+        background-color: seagreen; 
+        border-color: seagreen;
+        transform: scale(1.2);;
+        transition: 0.5s; 
+    }
